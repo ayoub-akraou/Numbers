@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply px-8 py-8 border-b-4 bg-white border-solid flex-1;
+  }
+  .number {
+    @apply text-8xl font-semibold;
+  }
+  .description {
+    @apply text-4xl whitespace-nowrap mt-4;
+  }
+}
